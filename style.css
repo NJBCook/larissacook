@@ -1,0 +1,33 @@
+* {
+  background-color: #ffe8ed;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  line-height: 36px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+a {
+  color: #e05f26;
+  text-decoration: none;
+}
+
+header {
+  nav {
+    .links {
+      display: flex;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+  }
+  .hero-heading {
+    max-width: 601px;
+    font-size: 136px;
+    color: #e05f26;
+    line-height: 166px;
+  }
+}
