@@ -18,10 +18,11 @@ a {
 
 header {
   nav {
+    padding-block: 32px;
     .links {
       display: flex;
       justify-content: flex-end;
-      gap: 24px;
+      gap: 48px;
     }
   }
   .hero-heading {
@@ -30,4 +31,18 @@ header {
     color: #e05f26;
     line-height: 166px;
   }
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-block: 48px;
 }
