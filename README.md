@@ -1,2 +1,0 @@
-# larissacook
-Website for Larissa
