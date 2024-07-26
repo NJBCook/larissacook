@@ -1,8 +1,17 @@
+@import "./_custom-media.css";
+@import "./_grid.css";
+@import "./_sizes.css";
+
 * {
-  background-color: #ffe8ed;
   box-sizing: border-box;
   font-family: Lato, sans-serif;
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe8ed;
 }
 
 p {
@@ -21,6 +30,7 @@ a {
 }
 
 header {
+  background-color: #faced8;
   nav {
     padding-block: 32px;
     .links {
@@ -29,6 +39,11 @@ header {
       gap: 48px;
     }
   }
+}
+
+.about,
+.icons-wrapper {
+  background-color: #facdd8;
 }
 
 .hero-heading,
@@ -84,10 +99,6 @@ header {
   }
 }
 
-footer {
-  background-color: #facdd8;
-}
-
 .grid-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -118,6 +129,10 @@ footer {
       }
     }
   }
+}
+
+footer {
+  background-color: #facdd8;
 }
 
 .item {
