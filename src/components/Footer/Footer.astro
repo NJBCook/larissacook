@@ -1,0 +1,46 @@
+---
+import FooterLogo from "../../assets/images/logo-footer.svg";
+import InstagramIcon from "../../assets/images/instagram-icon.svg";
+import FacebookIcon from "../../assets/images/facebook-icon.svg";
+import LinkedinIcon from "../../assets/images/linkedin-icon.svg";
+import { Image } from "astro:assets";
+
+import "./footer.css";
+---
+
+<footer class="wrapper">
+  <div class="footer-wrapper">
+    <div class="logo-wrapper">
+      <Image src={FooterLogo} alt="Larissa Cook logo" />
+    </div>
+    <div class="socials-wrapper">
+      <div class="instagram-icon">
+        <a
+          href="https://www.instagram.com/larissacook/"
+          target="_blank"
+          rel="noopener"
+        >
+          <Image src={InstagramIcon} alt="Instagram icon" />
+        </a>
+      </div>
+      <div class="facebook-icon">
+        <a
+          href="https://www.facebook.com/larissaillustration"
+          target="_blank"
+          rel="noopener"
+        >
+          <Image src={FacebookIcon} alt="Facebook icon" />
+        </a>
+      </div>
+      <div class="linkedin-icon">
+        <a
+          href="https://www.linkedin.com/in/larissa-cook-661b0b32/"
+          target="_blank"
+          rel="noopener"
+        >
+          <Image src={LinkedinIcon} alt="Linkedin icon" />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
