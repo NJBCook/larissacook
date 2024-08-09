@@ -1,0 +1,13 @@
+header {
+  background-color: var(--background-dark);
+  .header-wrapper {
+    padding-block: var(--size-10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .links-wrapper {
+      display: flex;
+      gap: var(--size-12);
+    }
+  }
+}

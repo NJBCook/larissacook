@@ -1,26 +1,29 @@
 @import "../../assets/css/_custom-media.css";
 
-.footer-wrapper {
-  padding-block-start: var(--size-20);
-  padding-block-end: var(--size-8);
-  display: flex;
-  flex-direction: column;
-  gap: var(--size-16);
-  @media (--sm) {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .logo-wrapper {
+footer {
+  background-color: var(--background-dark);
+  .footer-wrapper {
+    padding-block-start: var(--size-20);
+    padding-block-end: var(--size-8);
     display: flex;
-    justify-content: center;
-  }
-  .socials-wrapper {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: var(--size-16);
     @media (--sm) {
-      align-items: center;
-      gap: var(--size-4);
-      align-items: end;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .logo-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    .socials-wrapper {
+      display: flex;
+      justify-content: space-between;
+      @media (--sm) {
+        align-items: center;
+        gap: var(--size-4);
+        align-items: end;
+      }
     }
   }
 }

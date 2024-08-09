@@ -1,6 +1,7 @@
 @import "./_custom-media.css";
 @import "./_grid.css";
 @import "./_sizes.css";
+@import "./_colors.css";
 
 * {
   box-sizing: border-box;
@@ -27,18 +28,6 @@ span {
 a {
   color: #e05f26;
   text-decoration: none;
-}
-
-header {
-  background-color: #faced8;
-  nav {
-    padding-block: 32px;
-    .links {
-      display: flex;
-      justify-content: flex-end;
-      gap: 48px;
-    }
-  }
 }
 
 .about,
@@ -129,10 +118,6 @@ header {
       }
     }
   }
-}
-
-footer {
-  background-color: #facdd8;
 }
 
 .item {

@@ -1,0 +1,19 @@
+---
+import HeaderLogo from "../../assets/images/logo-header.svg";
+import { Image } from "astro:assets";
+import "./header.css";
+---
+
+<header class="wrapper">
+  <div class="header-wrapper">
+    <div class="logo-wrapper">
+      <Image src={HeaderLogo} alt="Larissa Cook logo" />
+    </div>
+    <nav>
+      <div class="links-wrapper">
+        <a href="./index.html">home</a>
+        <a href="./work.html">work</a>
+      </div>
+    </nav>
+  </div>
+</header>
