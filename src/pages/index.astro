@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import IconGroup from "../components/IconGroup/IconGroup.astro";
 ---
 
 <Layout title="home">
@@ -53,10 +54,10 @@ import Layout from "../layouts/Layout.astro";
           every visitor.
         </p>
         <p>
-          Swing by my <a href="https://www.instagram.com/larissacook"
-            >Instagram</a
-          > or <a href="https://facebook.com/larissaillustration/">Facebook</a> to
-          stay updated on my upcoming events. Thank you for swooping by and supporting
+          Swing by my{" "}
+          <a href="https://www.instagram.com/larissacook">Instagram</a> or{" "}
+          <a href="https://facebook.com/larissaillustration/">Facebook</a> to stay
+          updated on my upcoming events. Thank you for swooping by and supporting
           a rural artist.
         </p>
       </div>
@@ -75,24 +76,7 @@ import Layout from "../layouts/Layout.astro";
           merchandise development, digital and social marketing.
         </p>
       </div>
-      <div class="icons-wrapper">
-        <div class="icons-item">
-          <img />
-          <span>DESIGN</span>
-        </div>
-        <div class="icons-item">
-          <img />
-          <span>BRAND</span>
-        </div>
-        <div class="icons-item">
-          <img />
-          <span>ILLUSTRATION</span>
-        </div>
-        <div class="icons-item">
-          <img />
-          <span>UX</span>
-        </div>
-      </div>
+      <IconGroup />
     </section>
   </main>
 </Layout>

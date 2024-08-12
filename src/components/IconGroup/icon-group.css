@@ -1,0 +1,7 @@
+.icon-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-block-start: var(--size-20);
+  row-gap: var(--size-10);
+}
