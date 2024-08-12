@@ -37,6 +37,9 @@
   --size-72: 18rem; /* 288px */
   --size-80: 20rem; /* 320px */
   --size-96: 24rem; /* 384px */
+  --size-112: 28rem; /* 448px */
+  --size-128: 32rem; /* 512px */
+  --size-144: 36rem; /* 576px */
 
   --size-content-1: 20ch;
   --size-content-2: 45ch;
