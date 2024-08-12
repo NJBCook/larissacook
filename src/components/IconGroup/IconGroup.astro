@@ -1,0 +1,44 @@
+---
+import IconItem from "../IconItem/IconItem.astro";
+import "./icon-group.css";
+
+import DesignIcon from "../../assets/images/icon-design.svg";
+import BrandIcon from "../../assets/images/icon-brand.svg";
+import IllustrationIcon from "../../assets/images/icon-pencil.svg";
+import UXIcon from "../../assets/images/icon-phone.svg";
+
+const iconItems = [
+  {
+    src: DesignIcon,
+    caption: "DESIGN",
+    alt: "Design icon",
+  },
+  {
+    src: BrandIcon,
+    caption: "BRAND",
+    alt: "Brand icon",
+  },
+  {
+    src: IllustrationIcon,
+    caption: "ILLUSTRATION",
+    alt: "Illustration icon",
+  },
+  {
+    src: UXIcon,
+    caption: "UX",
+    alt: "UX icon",
+  },
+];
+---
+
+<section class="icon-group">
+  {
+    iconItems.map((iconItems) => (
+      <IconItem
+        src={iconItems.src}
+        alt={iconItems.alt}
+        caption={iconItems.caption}
+      />
+    ))
+  }
+</section>

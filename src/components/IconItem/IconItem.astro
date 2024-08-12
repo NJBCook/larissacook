@@ -1,0 +1,11 @@
+---
+import { Image } from "astro:assets";
+import "./icon-item.css";
+
+const { src, caption, alt } = Astro.props;
+---
+
+<div class="icon-item">
+  <Image src={src} alt={alt} width="100" height="100" />
+  <p class="caption">{caption}</p>
+</div>

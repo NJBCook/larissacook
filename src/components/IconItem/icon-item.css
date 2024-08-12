@@ -1,0 +1,12 @@
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-6);
+  align-items: center;
+  justify-content: center;
+  width: var(--size-40);
+  .caption {
+    margin: var(--size-0);
+    letter-spacing: var(--size-1);
+  }
+}
