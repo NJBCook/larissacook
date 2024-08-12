@@ -1,0 +1,16 @@
+@import "../../assets/css/_custom-media.css";
+
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: var(--size-10);
+  img {
+    width: var(--size-60);
+    height: var(--size-60);
+    @media (--sm) {
+      width: var(--size-75);
+      height: var(--size-75);
+    }
+  }
+}

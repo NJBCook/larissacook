@@ -2,6 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import IconGroup from "../components/IconGroup/IconGroup.astro";
 import Banner from "../components/Banner/Banner.astro";
+import Divider from "../components/Divider/Divider.astro";
+import MagpieIcon from "../assets/images/icon-magpie.svg";
 ---
 
 <Layout title="home">
@@ -31,9 +33,7 @@ import Banner from "../components/Banner/Banner.astro";
         <img />
       </div>
     </section>
-    <div class="img-wrapper">
-      <img />
-    </div>
+    <Divider src={MagpieIcon} alt="icon of a magpie" />
     <section class="hero">
       <div class="hero-image">
         <img />

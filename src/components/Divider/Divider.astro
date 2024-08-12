@@ -1,0 +1,10 @@
+---
+import "./divider.css";
+import { Image } from "astro:assets";
+
+const { src, alt } = Astro.props;
+---
+
+<section class="divider-wrapper">
+  <Image src={src} alt={alt} />
+</section>
