@@ -1,0 +1,16 @@
+@import "../../assets/css/_custom-media.css";
+
+.banner-wrapper {
+  background-color: var(--background-dark);
+  padding-block-end: var(--size-20);
+  h1 {
+    color: var(--heading-color);
+    font-size: var(--size-16);
+    line-height: var(--size-20);
+    margin: 0;
+    @media (--sm) {
+      font-size: var(--size-32);
+      line-height: var(--size-40);
+    }
+  }
+}
