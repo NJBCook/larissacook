@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.14.1",
+    "astro": "^5.16.6",
     "autoprefixer": "^10.4.19",
     "postcss-custom-media": "^10.0.8",
     "postcss-import": "^16.1.0",
